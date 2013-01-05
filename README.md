@@ -8,7 +8,9 @@ optimizations such as avoiding regular expressions.
 Chunked parsing is supported, and an efficient HTML entity encoder/decoder is
 included.
 
-<!-- ## Installation -->
+## Installation
+
+`npm install html-pe`
 
 ## Usage
 
