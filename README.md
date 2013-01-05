@@ -130,7 +130,7 @@ property. `Element` nodes additionally have two primitive methods:
 var Element = html.Element;
 
 Element.prototype.getElementsByTagName = function (name) {
-    this.getElementsBy(function (elem) {
+    return this.getElementsBy(function (elem) {
         return elem.name == name;
     });
 }
