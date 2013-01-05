@@ -1,0 +1,26 @@
+{
+    "name": "html-pe",
+    "description": "Accurate yet performant HTML parser and encoder",
+    "version": "1.0.0",
+    "author": "Igor Sadikov <igor@vokidas.com>",
+    "keywords": ["html", "parser", "entity", "encoder", "standards-compliant"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vokidas/html-pe.git"
+    },
+    "bugs": {
+        "email": "igor@vokidas.com",
+        "url": "http://github.com/vokidas/html-pe/issues"
+    },
+    "scripts": {
+        "test": "node tests/runtests.js"
+    },
+    "directories": {
+        "lib": "lib/"
+    },
+    "main": "lib/html.js",
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/vokidas/html-pe/raw/master/LICENSE"
+    }]
+}
