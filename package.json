@@ -1,7 +1,7 @@
 {
     "name": "html-pe",
     "description": "Accurate yet performant HTML parser and encoder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Igor Sadikov <igor@vokidas.com>",
     "keywords": ["html", "parser", "entity", "encoder", "standards-compliant"],
     "repository": {
