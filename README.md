@@ -121,9 +121,11 @@ following `document`:
 ```
 
 Nodes are either `Element` nodes or `Text` nodes. All nodes have a `textContent`
-property. `Element` nodes additionally have two primitive methods:
-`getElementsBy(test)` and `getElementBy(test)` where `test` is a function
-`Element -> bool`. In this example, `getElementsBy` is used to implement
+property. `Element` nodes provide the DOM navigation methods `getElementById`,
+`getElementsByName`, `getElementsByClassName`, and `getElementsByTagName`. Two
+primitive methods are also available: `getElementsBy(test)` and
+`getElementBy(test)` where `test` is a function of type `Element -> bool`. For
+example, this is how `getElementsBy` is used to implement
 `getElementsByTagName`:
 
 ```javascript
